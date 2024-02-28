@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  align-items: center; 
+  
+
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+
+.view-case-study-btn {
+  display: inline-block;
+  background-color: midnightblue;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+   max-width: 200px;
+}
+
+.view-case-study-btn:hover {
+  background-color: #0056b3;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+.view-all-projects-btn {
+  display: inline-block;
+  background-color: midnightblue;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  max-width: 200px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.view-all-projects-btn:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 50px; 
+    height: auto; 
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
